@@ -107,13 +107,12 @@ header #nav-content ul {
   text-align: center;
 }
 header #nav-content ul li {
-  color: #1c1f2b;
   display: block;
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 18px;
+  font-size: 25px;
   margin: 30px 0;
 }
-header #nav-content ul li a:visited {
+header #nav-content ul li a:visited, header #nav-content ul li a:link {
   color: #1c1f2b;
 }
 header #nav-content ul li a:hover {
