@@ -540,6 +540,9 @@ main .ocean {
     text-align: left;
     line-height: 1.5;
   }
+  main #designs .designs-item .designs-item-inner-wrapper .designs-point ul li:before {
+    margin-right: 0.3em;
+  }
   main #contact {
     padding-bottom: 100px;
   }

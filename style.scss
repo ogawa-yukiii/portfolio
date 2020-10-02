@@ -518,6 +518,9 @@ main {
               li {
                 text-align: left;
                 line-height: 1.5;
+                &:before {
+                  margin-right: 0.3em;
+                } //&:before
               } //li
             } //ul
           } //.designs-point
