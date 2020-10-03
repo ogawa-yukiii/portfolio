@@ -250,6 +250,14 @@ main #about .about-item .self-introduction h3 {
 main #about .about-item .self-introduction p {
   line-height: 2.5;
 }
+main #about .about-item .self-introduction a:hover {
+  opacity: 0.7;
+  transition-duration: 0.3s;
+}
+main #about .about-item .self-introduction .sns {
+  color: #c39244;
+  margin-top: 10px;
+}
 main #about .about-item .skills {
   /* 星5 */
   /* 星4.5 */
@@ -376,8 +384,8 @@ main #designs .designs-item .designs-item-inner-wrapper .designs-picture img {
   max-width: 100%;
 }
 main #designs .designs-item .designs-item-inner-wrapper .designs-picture img:hover {
-  transition-duration: 0.3s;
   opacity: 0.7;
+  transition-duration: 0.3s;
 }
 main #designs .designs-item .designs-item-inner-wrapper .designs-point {
   padding: 0 30px;
