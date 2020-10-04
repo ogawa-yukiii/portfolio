@@ -372,7 +372,7 @@ main {
               padding-left:2em;
               text-indent:-2.2em;
               &:before {
-                background-image: url(img/wheel.png);
+                background-image: url(../img/wheel.png);
                 background-size: contain;
                 content: '';/*何も入れない*/
                 display: inline-block;/*忘れずに！*/
