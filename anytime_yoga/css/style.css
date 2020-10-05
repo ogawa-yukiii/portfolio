@@ -235,8 +235,7 @@ main {
   max-width: 100%; }
   main .visual img {
     width: 100%;
-    vertical-align: top;
-    padding-top: 69px; }
+    vertical-align: top; }
   main .main-message {
     background-color: #eddfe0;
     text-align: center; }
@@ -583,8 +582,13 @@ main {
 /* responsive main=================================
 // ==============================================*/
 @media screen and (max-width: 1153px) {
+  main .visual img {
+    padding-top: 69px; }
+  main .main-message .main-topic {
+    font-size: 18px; }
   main .main-message p {
-    line-height: 2; }
+    line-height: 2;
+    font-size: 14px; }
   main #news {
     margin: 0 auto;
     width: auto; }

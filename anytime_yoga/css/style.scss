@@ -315,7 +315,6 @@ main {
     .visual img {
       width: 100%;
       vertical-align: top; //画像下にできる余白を取る
-      padding-top: 69px;
     } //.visual img
   .main-message {
     background-color: $pink;
@@ -721,9 +720,16 @@ main {
 // ==============================================*/
 @media screen and (max-width: 1153px) {
   main {
+    .visual img {
+      padding-top: 69px;
+    } //.visual img
     .main-message {
+      .main-topic {
+        font-size: 18px;
+      } //.main-topic
       p {
         line-height: 2;
+        font-size: 14px;
       } //p
     } //.main-message
     #news {
