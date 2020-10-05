@@ -317,6 +317,7 @@ main {
           width: 60%; }
           main #designs .designs-item .designs-item-inner-wrapper .designs-point h4 {
             border-bottom: 2px solid #c39244;
+            letter-spacing: 5px;
             margin-bottom: 10px;
             padding-bottom: 1px; }
           main #designs .designs-item .designs-item-inner-wrapper .designs-point ul {
