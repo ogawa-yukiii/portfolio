@@ -589,13 +589,16 @@ main {
   main .main-message p {
     line-height: 2;
     font-size: 14px; }
+  main .title-english {
+    font-size: 18px; }
+  main .item {
+    font-size: 20px;
+    margin-bottom: 45px; }
   main #news {
     margin: 0 auto;
     width: auto; }
     main #news .news-inner-wrapper {
       margin: 0 4%; }
-    main #news h2 {
-      margin-bottom: 30px; }
     main #news div.clear:after {
       content: "";
       display: block;
@@ -635,23 +638,25 @@ main {
       width: auto; }
     main #lesson .sample .sample-box-wrapper {
       margin: 0 auto; }
-  main #pricing table {
-    margin: 0 auto;
-    width: 100%; }
-    main #pricing table th {
-      display: block;
+  main #pricing {
+    padding-bottom: 65px; }
+    main #pricing table {
       margin: 0 auto;
-      padding: 10px;
-      width: 60%; }
-    main #pricing table td {
-      display: block;
-      margin: 0 auto;
-      padding: 15px;
-      width: 60%; }
-  main #pricing .sign-up-wrapper {
-    text-align: center; }
-  main #pricing .sign-up {
-    margin-top: 50px; }
+      width: 100%; }
+      main #pricing table th {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        width: 60%; }
+      main #pricing table td {
+        display: block;
+        margin: 0 auto;
+        padding: 15px;
+        width: 60%; }
+    main #pricing .sign-up-wrapper {
+      text-align: center; }
+    main #pricing .sign-up {
+      margin-top: 50px; }
   main #instructor .instructor-wrapper {
     display: flex;
     flex-direction: column; }
@@ -696,7 +701,9 @@ main {
     text-align: left;
     width: auto; }
     main #contact-us form .form-inner-wrapper {
-      width: 60%; } }
+      width: 60%; }
+    main #contact-us form .btn-area {
+      margin-top: 70px; } }
 /* footer ======================================
 ==============================================*/
 footer {
