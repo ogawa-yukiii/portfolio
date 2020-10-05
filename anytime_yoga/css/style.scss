@@ -315,6 +315,7 @@ main {
     .visual img {
       width: 100%;
       vertical-align: top; //画像下にできる余白を取る
+      padding-top: 69px;
     } //.visual img
   .main-message {
     background-color: $pink;

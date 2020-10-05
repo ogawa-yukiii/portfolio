@@ -235,7 +235,8 @@ main {
   max-width: 100%; }
   main .visual img {
     width: 100%;
-    vertical-align: top; }
+    vertical-align: top;
+    padding-top: 69px; }
   main .main-message {
     background-color: #eddfe0;
     text-align: center; }
