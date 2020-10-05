@@ -696,14 +696,16 @@ main {
       padding: 0 15%; }
     main #faq .faq-wrapper dd {
       padding: 25px 15%; }
-  main #contact-us form {
-    margin: 0 auto;
-    text-align: left;
-    width: auto; }
-    main #contact-us form .form-inner-wrapper {
-      width: 60%; }
-    main #contact-us form .btn-area {
-      margin-top: 70px; } }
+  main #contact-us {
+    padding-bottom: 65px; }
+    main #contact-us form {
+      margin: 0 auto;
+      text-align: left;
+      width: auto; }
+      main #contact-us form .form-inner-wrapper {
+        width: 60%; }
+      main #contact-us form .btn-area {
+        margin-top: 70px; } }
 /* footer ======================================
 ==============================================*/
 footer {
