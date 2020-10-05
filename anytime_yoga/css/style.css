@@ -134,15 +134,15 @@ header {
       width: 100%; }
     header 　
     .logo img {
-      padding-top: 0; }
+      padding-top: 30px; }
     header .top-bar {
       display: none; }
     header #nav-drawer {
-      background-color: white;
+      align-items: center;
       background-color: white;
       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       box-sizing: border-box;
-      display: block;
+      display: flex;
       height: 70px;
       position: fixed;
       top: 0;
@@ -154,7 +154,8 @@ header {
         text-align: center;
         width: auto; }
         header #nav-drawer h1.logo img {
-          width: 200px; }
+          width: 200px;
+          padding-top: 0; }
     header .nav-unshown {
       display: none; }
     header #nav-open {

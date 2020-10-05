@@ -192,17 +192,17 @@ header {
       width: 100%;
     }　//.logo-wrapper
     .logo img {
-      padding-top: 0;
+      padding-top: 30px;
     } //.logo img
     .top-bar {
       display: none; //pc用ナビ非表示
     } //.top-bar
     #nav-drawer {
-      background-color: white;
+      align-items: center;
       background-color: white;
       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       box-sizing: border-box;
-      display: block;
+      display: flex;
       height: 70px;
       position: fixed;
       top: 0;
@@ -215,6 +215,7 @@ header {
         width: auto;
         &.logo img {
           width: 200px;
+          padding-top: 0;
         } //.logo img
       } //h1
     } //#nav-drawer
