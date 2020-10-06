@@ -485,6 +485,7 @@ main {
       background: url(../img/arrow-down.png) no-repeat 96% center;
       background-size: 4%;
       cursor: pointer;
+      font-weight: bold;
       padding: 10px 0;
       position: relative;
       top: 50%; }
