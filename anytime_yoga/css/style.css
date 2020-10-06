@@ -575,7 +575,8 @@ main {
         margin: 0 auto;
         padding: 5px 10px;
         text-align: center;
-        width: 180px; }
+        width: 180px;
+        cursor: pointer; }
         main #contact-us form button:hover {
           opacity: 0.3;
           transition-duration: 0.2s; }
