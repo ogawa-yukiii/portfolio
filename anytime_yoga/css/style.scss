@@ -699,7 +699,7 @@ main {
         margin-top: 5%;
         padding-bottom: 5%;
       } //.btn-area
-      input[type="submit"] {
+      button {
         background-color: $green;
         border-radius: 50px;
         box-shadow: 1px 1px 4px 1px #dadee2;
@@ -712,7 +712,7 @@ main {
           opacity: 0.3;
           transition-duration: 0.2s;
         } //&:hover
-      } //input[type="submit"]
+      } //button
     } //form
   } //#contact-us
 } //main
@@ -893,6 +893,7 @@ main {
         } //.form-inner-wrapper
         .btn-area {
           margin-top: 70px;
+          text-align: center;
         } //.btn-area
       } //form
     } //#contact-us

@@ -567,7 +567,7 @@ main {
       main #contact-us form .btn-area {
         margin-top: 5%;
         padding-bottom: 5%; }
-      main #contact-us form input[type="submit"] {
+      main #contact-us form button {
         background-color: #416a7c;
         border-radius: 50px;
         box-shadow: 1px 1px 4px 1px #dadee2;
@@ -576,7 +576,7 @@ main {
         padding: 5px 10px;
         text-align: center;
         width: 180px; }
-        main #contact-us form input[type="submit"]:hover {
+        main #contact-us form button:hover {
           opacity: 0.3;
           transition-duration: 0.2s; }
 
@@ -706,7 +706,8 @@ main {
       main #contact-us form .form-inner-wrapper {
         width: 60%; }
       main #contact-us form .btn-area {
-        margin-top: 70px; } }
+        margin-top: 70px;
+        text-align: center; } }
 /* footer ======================================
 ==============================================*/
 footer {
