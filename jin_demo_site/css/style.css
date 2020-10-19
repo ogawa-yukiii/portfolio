@@ -94,6 +94,11 @@ body main div.article div.card {
   display: flex;
   flex-direction: column;
 }
+body main div.article div.card:hover {
+  transform: translate(0, -4px);
+  transition-duration: .4s;
+  box-shadow: 1px 1px 15px 1px rgba(128, 128, 128, 0.2);
+}
 body main div.article div.card img {
   width: 100%;
 }
@@ -411,13 +416,13 @@ body footer {
   background-color: #393542;
   color: white;
   width: 100%;
-  padding: 0 4%;
 }
 body footer div.footer-inner-wrap {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  padding-top: 30px;
+  padding: 40px 4% 0 4%;
+  margin-bottom: 40px;
 }
 body footer div.footer-inner-wrap div.footer-left {
   width: 30%;
@@ -473,6 +478,7 @@ body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap div
   text-align: left;
   margin-bottom: 20px;
   font-size: 15px;
+  letter-spacing: 0.1em;
 }
 body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap div ul {
   display: inline-block;
@@ -509,6 +515,7 @@ body footer div.footer-inner-wrap div.footer-center div.footer-center-inner-wrap
   text-align: left;
   margin-bottom: 20px;
   font-size: 15px;
+  letter-spacing: 0.1em;
 }
 body footer div.footer-inner-wrap div.footer-center div.footer-center-inner-wrap ul li {
   list-style: none;
@@ -545,6 +552,7 @@ body footer div.footer-inner-wrap div.footer-right div.footer-right-inner-wrap p
   text-align: left;
   margin-bottom: 20px;
   font-size: 15px;
+  letter-spacing: 0.1em;
 }
 body footer div.footer-inner-wrap div.footer-right div.footer-right-inner-wrap div.post {
   display: flex;
@@ -571,6 +579,12 @@ body footer div.footer-inner-wrap div.footer-right div.footer-right-inner-wrap d
   text-align: center;
   padding-left: 0;
   padding-top: 1px;
+}
+body footer p.copyright {
+  font-size: 12px;
+  text-align: center;
+  padding: 20px 0;
+  letter-spacing: 0.1em;
 }
 
 /*# sourceMappingURL=style.css.map */
