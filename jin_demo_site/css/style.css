@@ -155,6 +155,13 @@ body main div.article div.page ul li.current {
   color: white;
   margin-right: 7px;
 }
+body main div.article div.page ul li.next:hover {
+  transform: translate(0, -4px);
+  transition: .7s;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.5);
+  cursor: pointer;
+}
 body main div.article div.page ul li.next {
   margin-right: 20px;
 }
