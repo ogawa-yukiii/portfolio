@@ -129,7 +129,7 @@ body {
           width: 100%;
         } //img
         p.article-title {
-          margin: 10px 20px 30px 20px;
+          margin: 10px 15px 20px 15px;
           font-size: 18px;
           text-align: left;
           letter-spacing: 1px;
@@ -277,6 +277,7 @@ body {
             p {
               @include download_detail(#aaa);
               font-size: 10px;
+              color: white;
               a {
                 &:visited {
                   color: white;
@@ -400,6 +401,7 @@ body {
     background-color: #393542;
     color: white;
     width: 100%;
+    padding: 0 4%;
     div.footer-inner-wrap {
       display: flex;
       justify-content: space-around;
@@ -408,26 +410,27 @@ body {
       div.footer-left {
         width: 30%;
         div.footer-left-inner-wrap {
-          width: 75%;
+          width: 80%;
           margin: 0 auto;
           img {
-            width: 25%;
+            width: 40%;
             margin: 20px 0;
           } //img
           p.text {
-            // width: 75%;
             text-align: left;
             margin: 0 auto;
             margin-bottom: 20px;
             letter-spacing: 0.1em;
-            font-size: 14px;
+            font-size: 13px;
+            line-height: 1.8;
           } //p.text
           p.download {
             @include download_detail(#e22255);
             text-align: center;
-            width: 60%;
+            width: 90%;
             padding: 10px 5px;
             margin: 0 auto;
+            font-size: 14px;
             &:before {
               background-image: url(../img/arrow.png);
               background-size: contain;
@@ -440,7 +443,7 @@ body {
             } //&:before
           } //p.download
           div {
-            // width: 75%;
+            width: 100%;
             margin-top: 80px;
             p.item-title {
               @include item-title;
@@ -450,7 +453,7 @@ body {
               li {
                 display: flex;
                 list-style: none;
-                padding: 3px 7px;
+                padding: 3px 8px;
                 background-color: rgba(255, 255, 255, 0.25);
                 float: left;
                 margin: 0 5px 5px 0;
@@ -486,6 +489,7 @@ body {
               font-size: 11px;
               position: relative;
               padding-left: 14px;
+              letter-spacing: 0.1em;
               &::before {
                 content: "";
                 display: block;
@@ -497,7 +501,7 @@ body {
                 position: absolute;
                 top: 50%;
                 left: 0px;
-                margin-top: -9px;
+                margin-top: -7.5px;
               }
             } //li
           } //ul
@@ -534,7 +538,7 @@ body {
               font-size: 12px;
               text-align: center;
               padding-left: 0;
-              padding-top: 2px;
+              padding-top: 1px;
             }
           } //div.post
         } //div.footer-right-inner-wrap

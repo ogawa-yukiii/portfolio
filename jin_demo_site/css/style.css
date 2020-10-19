@@ -98,7 +98,7 @@ body main div.article div.card img {
   width: 100%;
 }
 body main div.article div.card p.article-title {
-  margin: 10px 20px 30px 20px;
+  margin: 10px 15px 20px 15px;
   font-size: 18px;
   text-align: left;
   letter-spacing: 1px;
@@ -255,6 +255,7 @@ body main aside div.about div.about-sentence div p {
   padding: 8px 0;
   color: white;
   font-size: 10px;
+  color: white;
 }
 body main aside div.about div.about-sentence div p a:visited {
   color: white;
@@ -410,6 +411,7 @@ body footer {
   background-color: #393542;
   color: white;
   width: 100%;
+  padding: 0 4%;
 }
 body footer div.footer-inner-wrap {
   display: flex;
@@ -421,11 +423,11 @@ body footer div.footer-inner-wrap div.footer-left {
   width: 30%;
 }
 body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
 }
 body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap img {
-  width: 25%;
+  width: 40%;
   margin: 20px 0;
 }
 body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap p.text {
@@ -433,7 +435,8 @@ body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap p.t
   margin: 0 auto;
   margin-bottom: 20px;
   letter-spacing: 0.1em;
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 1.8;
 }
 body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap p.download {
   background-color: #e22255;
@@ -441,9 +444,10 @@ body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap p.d
   padding: 8px 0;
   color: white;
   text-align: center;
-  width: 60%;
+  width: 90%;
   padding: 10px 5px;
   margin: 0 auto;
+  font-size: 14px;
 }
 body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap p.download:before {
   background-image: url(../img/arrow.png);
@@ -460,6 +464,7 @@ body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap p.d
   /*画像の幅*/
 }
 body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap div {
+  width: 100%;
   margin-top: 80px;
 }
 body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap div p.item-title {
@@ -475,7 +480,7 @@ body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap div
 body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap div ul li {
   display: flex;
   list-style: none;
-  padding: 3px 7px;
+  padding: 3px 8px;
   background-color: rgba(255, 255, 255, 0.25);
   float: left;
   margin: 0 5px 5px 0;
@@ -512,6 +517,7 @@ body footer div.footer-inner-wrap div.footer-center div.footer-center-inner-wrap
   font-size: 11px;
   position: relative;
   padding-left: 14px;
+  letter-spacing: 0.1em;
 }
 body footer div.footer-inner-wrap div.footer-center div.footer-center-inner-wrap ul li::before {
   content: "";
@@ -524,7 +530,7 @@ body footer div.footer-inner-wrap div.footer-center div.footer-center-inner-wrap
   position: absolute;
   top: 50%;
   left: 0px;
-  margin-top: -9px;
+  margin-top: -7.5px;
 }
 body footer div.footer-inner-wrap div.footer-right {
   width: 40%;
@@ -564,7 +570,7 @@ body footer div.footer-inner-wrap div.footer-right div.footer-right-inner-wrap d
   font-size: 12px;
   text-align: center;
   padding-left: 0;
-  padding-top: 2px;
+  padding-top: 1px;
 }
 
 /*# sourceMappingURL=style.css.map */
