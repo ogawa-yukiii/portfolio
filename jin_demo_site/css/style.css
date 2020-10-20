@@ -93,10 +93,10 @@ body main div.article div.card {
   position: relative;
   display: flex;
   flex-direction: column;
+  transition-duration: .3s;
 }
 body main div.article div.card:hover {
-  transform: translate(0, -4px);
-  transition-duration: .4s;
+  transform: translate(0, -3px);
   box-shadow: 1px 1px 15px 1px rgba(128, 128, 128, 0.2);
 }
 body main div.article div.card img {
@@ -155,9 +155,11 @@ body main div.article div.page ul li.current {
   color: white;
   margin-right: 7px;
 }
+body main div.article div.page ul li.next {
+  transition-duration: .4s;
+}
 body main div.article div.page ul li.next:hover {
   transform: translate(0, -4px);
-  transition: .7s;
   color: white;
   background-color: rgba(128, 128, 128, 0.5);
   cursor: pointer;

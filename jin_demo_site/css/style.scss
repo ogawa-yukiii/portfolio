@@ -126,9 +126,10 @@ body {
         position: relative;
         display: flex;
         flex-direction: column;
+        transition-duration: .3s;
+
         &:hover {
-          transform: translate(0, -4px);
-          transition-duration: .4s;
+          transform: translate(0, -3px);
           box-shadow: 1px 1px 15px 1px rgba(128, 128, 128, 0.2);
         }
         img {
@@ -186,9 +187,9 @@ body {
               margin-right: 7px;
             } //&.current
             &.next {
+              transition-duration: .4s;
               &:hover {
                 transform: translate(0, -4px);
-                transition: .7s;
                 color: white;
                 background-color: rgba(128, 128, 128, 0.5);
                 cursor: pointer;
