@@ -267,6 +267,11 @@ body main aside div.about div.about-sentence div {
   border-radius: 30px;
   text-align: center;
   margin: 0 auto;
+  transition-duration: .4s;
+}
+body main aside div.about div.about-sentence div:hover {
+  opacity: 0.5;
+  transition-duration: .4s;
 }
 body main aside div.about div.about-sentence div p {
   background-color: #aaa;
@@ -276,14 +281,11 @@ body main aside div.about div.about-sentence div p {
   font-size: 10px;
   color: white;
 }
-body main aside div.about div.about-sentence div p a:visited {
-  color: white;
-}
 body main aside div.about div.sns {
   text-align: center;
   background-color: #9acc1e;
   color: white;
-  padding: 0 100px 20px 100px;
+  padding: 0 110px 20px 110px;
 }
 body main aside div.about div.sns p {
   padding-top: 15px;
@@ -300,6 +302,11 @@ body main aside div.about div.sns ul li {
   padding: 2px;
   width: 30px;
   height: 30px;
+  transition-duration: .3s;
+}
+body main aside div.about div.sns ul li:hover {
+  transform: scale(1.1, 1.1);
+  transition-duration: .3s;
 }
 body main aside div.recent-post {
   border: 1px solid rgba(128, 128, 128, 0.2);
@@ -316,6 +323,12 @@ body main aside div.recent-post div.post {
   display: flex;
   width: 100%;
   margin-top: 20px;
+  transition-duration: .3s;
+  cursor: pointer;
+}
+body main aside div.recent-post div.post:hover {
+  color: #e22255;
+  transition-duration: 0.3s;
 }
 body main aside div.recent-post div.post img {
   width: 35%;
@@ -370,6 +383,13 @@ body main aside div.tag ul li {
   background-color: #f6f6f6;
   float: left;
   margin: 0 5px 5px 0;
+  transition-duration: .3s;
+  cursor: pointer;
+}
+body main aside div.tag ul li:hover {
+  color: white;
+  background: black;
+  transition-duration: .3s;
 }
 body main aside div.tag ul li i {
   font-size: 0.1em;
@@ -399,6 +419,15 @@ body main aside div.search form.search_container {
 }
 body main aside div.search form.search_container input {
   padding: 3px 0;
+  text-indent: 20px;
+  border-radius: 30px;
+  transition-duration: .3s;
+}
+body main aside div.search form.search_container input:focus {
+  border: 1px solid #0d98ba;
+  border-radius: 30px;
+  transition-duration: .3s;
+  outline: none;
 }
 body main aside div.recommend {
   border: 1px solid rgba(128, 128, 128, 0.2);
@@ -505,6 +534,12 @@ body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap div
   float: left;
   margin: 0 5px 5px 0;
   border-radius: 1px;
+  transition-duration: .3s;
+  cursor: pointer;
+}
+body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap div ul li:hover {
+  background-color: #0d0015;
+  transition-duration: .3s;
 }
 body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap div ul li i {
   font-size: 0.1em;
