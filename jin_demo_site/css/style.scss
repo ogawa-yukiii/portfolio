@@ -45,6 +45,23 @@ a {
 .font {
   font-family: 'Quicksand', sans-serif;
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translate(0, 20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: .8s;
+  animation-fill-mode: forwards;
+
+}
+
 body {
   width: 100%;
   #body-wrap {
@@ -544,6 +561,7 @@ body {
               position: relative;
               padding-left: 14px;
               letter-spacing: 0.1em;
+              transition-duration: .3s;
               &::before {
                 content: "";
                 display: block;
@@ -556,7 +574,11 @@ body {
                 top: 50%;
                 left: 0px;
                 margin-top: -7.5px;
-              }
+              } //&::before
+              &:hover {
+                transform: translate(4px, 0);
+                transition-duration: .3s;
+              } //&:hover
             } //li
           } //ul
         } //div.footer-center-inner-wrap
