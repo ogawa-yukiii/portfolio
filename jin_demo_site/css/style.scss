@@ -591,6 +591,9 @@ body {
                 transform: translate(4px, 0);
                 transition-duration: .3s;
               } //&:hover
+              a:visited {
+                color: white;
+              } //a:visited
             } //li
           } //ul
         } //div.footer-center-inner-wrap
@@ -654,6 +657,11 @@ body {
         div.recommend {
           margin-bottom: 40px;
         } //div.recommend
+        div.search {
+          form.search_container {
+            background-size: 4%;
+          } //form.search_container
+        } //div.search
       } //aside
     } //main
     footer {
@@ -663,7 +671,64 @@ body {
         div.footer-center,
         div.footer-right {
           width: 100%;
-        }
+        } //div.footer-left, div.footer-center, div.footer-right
+        div.footer-left-inner-wrap,
+        div.footer-center-inner-wrap,
+        div.footer-right-inner-wrap {
+          width: 100% !important;
+          margin-bottom: 50px !important;
+        } //div.footer-left-inner-wrap, div.footer-center-inner-wrap, div.footer-right-inner-wrap
+        div.footer-left-inner-wrap {
+          img {
+            width: 20% !important;
+          } //img
+        } //div.footer-left-inner-wrap
+        p.item-title {
+          border-left: none !important;
+          padding-left: 0 !important;
+          border-bottom: 2px solid #9acc1e;
+        } //p.item-title
+        div.footer-center {
+          div.footer-center-inner-wrap {
+            display: block;
+            div.category {
+              margin-bottom: 50px !important;
+            } //div.category
+            ul li {
+              border-bottom: 1px solid white;
+              padding-top: 10px;
+              padding-left: 25px;
+              &:last-child {
+                border-bottom: none;
+              } //&:last-child
+              &:before {
+                content: "";
+                display: block;
+                width: 15px;
+                height: 15px;
+                position: absolute;
+                top: 50%;
+                left: 5px;
+                margin-top: -7.5px;
+                background-color: white;
+                border-radius: 50%;
+              } //&:before
+              &:after {
+                content: "";
+                display: block;
+                width: 6px;
+                height: 6px;
+                border-top: 1px solid #393542;
+                border-right: 1px solid #393542;
+                transform: rotate(45deg);
+                position: absolute;
+                top: 62%;
+                left: 9px;
+                margin-top: -7.5px;
+              } //&:after
+            } //ul li
+          } //div.footer-center-inner-wrap
+        } //div.footer-center
       } //div.footer-inner-wrap
     } //footer
   } //body

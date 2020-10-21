@@ -625,6 +625,9 @@ body footer div.footer-inner-wrap div.footer-center div.footer-center-inner-wrap
   transform: translate(4px, 0);
   transition-duration: .3s;
 }
+body footer div.footer-inner-wrap div.footer-center div.footer-center-inner-wrap ul li a:visited {
+  color: white;
+}
 body footer div.footer-inner-wrap div.footer-right {
   width: 40%;
 }
@@ -686,6 +689,9 @@ body footer p.copyright {
   body main aside div.recommend {
     margin-bottom: 40px;
   }
+  body main aside div.search form.search_container {
+    background-size: 4%;
+  }
   body footer div.footer-inner-wrap {
     display: block;
   }
@@ -693,6 +699,59 @@ body footer p.copyright {
   body footer div.footer-inner-wrap div.footer-center,
   body footer div.footer-inner-wrap div.footer-right {
     width: 100%;
+  }
+  body footer div.footer-inner-wrap div.footer-left-inner-wrap,
+  body footer div.footer-inner-wrap div.footer-center-inner-wrap,
+  body footer div.footer-inner-wrap div.footer-right-inner-wrap {
+    width: 100% !important;
+    margin-bottom: 50px !important;
+  }
+  body footer div.footer-inner-wrap div.footer-left-inner-wrap img {
+    width: 20% !important;
+  }
+  body footer div.footer-inner-wrap p.item-title {
+    border-left: none !important;
+    padding-left: 0 !important;
+    border-bottom: 2px solid #9acc1e;
+  }
+  body footer div.footer-inner-wrap div.footer-center div.footer-center-inner-wrap {
+    display: block;
+  }
+  body footer div.footer-inner-wrap div.footer-center div.footer-center-inner-wrap div.category {
+    margin-bottom: 50px !important;
+  }
+  body footer div.footer-inner-wrap div.footer-center div.footer-center-inner-wrap ul li {
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    padding-left: 25px;
+  }
+  body footer div.footer-inner-wrap div.footer-center div.footer-center-inner-wrap ul li:last-child {
+    border-bottom: none;
+  }
+  body footer div.footer-inner-wrap div.footer-center div.footer-center-inner-wrap ul li:before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    margin-top: -7.5px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  body footer div.footer-inner-wrap div.footer-center div.footer-center-inner-wrap ul li:after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-top: 1px solid #393542;
+    border-right: 1px solid #393542;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 62%;
+    left: 9px;
+    margin-top: -7.5px;
   }
 }
 
