@@ -57,9 +57,8 @@ a {
 }
 .fadeIn {
   animation-name: fadeIn;
-  animation-duration: .8s;
+  animation-duration: 1.5s;
   animation-fill-mode: forwards;
-
 }
 
 body {
@@ -220,7 +219,7 @@ body {
       } //div.page
     } //div.article
     aside {
-      // width: 38%;
+      width: 35%;
       div.theme {
         @include aside-wrap;
         margin-bottom: 30px;
@@ -278,17 +277,24 @@ body {
       div.about {
         @include aside-wrap;
         div.about-img {
+          margin: 0 auto;
           margin-top: 50px;
-          p.img-pic {
-            background-image: url(../img/shutterstock_451391740-150x150.jpg);
+          width: 110px;
+          height: 110px;
+          overflow: hidden;
+          border: 1px solid rgba(128, 128, 128, 0.1);
+          border-radius: 50%;
+          img {
+            margin: 0 auto;
+            border-radius: 50%;
             width: 110px;
             height: 110px;
-            border-radius: 50%;
-            background-position: center center;
-            margin: 0 auto;
-            border: 1px solid rgba(128, 128, 128, 0.1);
-            background-size: 100%;
-          } //p.img-pic
+            transition-duration: .3s;
+            &:hover {
+              transform: scale(1.1, 1.1);
+              transition-duration: .3s
+            } //&:hover
+          } //img
         } //div.about-img
         div.about-sentence {
           text-align: center;
@@ -328,7 +334,8 @@ body {
           text-align: center;
           background-color: $green;
           color: white;
-          padding: 0 110px 20px 110px;
+          // padding: 0 110px 20px 110px;
+          padding: 20px 0;
           p {
             padding-top: 15px;
             font-size: 13px;
@@ -337,6 +344,8 @@ body {
             display: flex;
             justify-content: space-around;
             padding-top: 5px;
+            width: 50%;
+            margin: 0 auto;
             li {
               list-style: none;
               background-color: rgba(255, 255, 255, 0.18);
@@ -444,13 +453,16 @@ body {
       div.recommend {
         @include aside;
         div.post {
-          // float: left;
+          display: flex;
           width: 100%;
           margin-top: 20px;
+          &:hover {
+            color: #e22255;
+            transition-duration: .3s
+          } //&:hover
           img {
             width: 35%;
             height: auto;
-            float: left;
             padding-right: 12px;
           } //img
           p {
@@ -628,3 +640,31 @@ body {
     }
   } //footer
 } //body
+
+/* =====================================
+  レスポンシブ
+======================================*/
+
+@media screen and (max-width: 768px) {
+  body {
+    main {
+      display: block;
+      aside {
+        width: 100%;
+        div.recommend {
+          margin-bottom: 40px;
+        } //div.recommend
+      } //aside
+    } //main
+    footer {
+      div.footer-inner-wrap {
+        display: block;
+        div.footer-left,
+        div.footer-center,
+        div.footer-right {
+          width: 100%;
+        }
+      } //div.footer-inner-wrap
+    } //footer
+  } //body
+} //@media screen and (max-width: 768px)

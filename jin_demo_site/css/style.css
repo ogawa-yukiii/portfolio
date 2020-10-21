@@ -25,7 +25,7 @@ a {
 }
 .fadeIn {
   animation-name: fadeIn;
-  animation-duration: .8s;
+  animation-duration: 1.5s;
   animation-fill-mode: forwards;
 }
 
@@ -183,6 +183,9 @@ body main div.article div.page ul li.next:hover {
 body main div.article div.page ul li.next {
   margin-right: 20px;
 }
+body main aside {
+  width: 35%;
+}
 body main aside div.theme {
   border: 1px solid rgba(128, 128, 128, 0.2);
   margin-bottom: 30px;
@@ -248,17 +251,24 @@ body main aside div.about {
   border: 1px solid rgba(128, 128, 128, 0.2);
 }
 body main aside div.about div.about-img {
+  margin: 0 auto;
   margin-top: 50px;
-}
-body main aside div.about div.about-img p.img-pic {
-  background-image: url(../img/shutterstock_451391740-150x150.jpg);
   width: 110px;
   height: 110px;
-  border-radius: 50%;
-  background-position: center center;
-  margin: 0 auto;
+  overflow: hidden;
   border: 1px solid rgba(128, 128, 128, 0.1);
-  background-size: 100%;
+  border-radius: 50%;
+}
+body main aside div.about div.about-img img {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  transition-duration: .3s;
+}
+body main aside div.about div.about-img img:hover {
+  transform: scale(1.1, 1.1);
+  transition-duration: 0.3s;
 }
 body main aside div.about div.about-sentence {
   text-align: center;
@@ -301,7 +311,7 @@ body main aside div.about div.sns {
   text-align: center;
   background-color: #9acc1e;
   color: white;
-  padding: 0 110px 20px 110px;
+  padding: 20px 0;
 }
 body main aside div.about div.sns p {
   padding-top: 15px;
@@ -311,6 +321,8 @@ body main aside div.about div.sns ul {
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
+  width: 50%;
+  margin: 0 auto;
 }
 body main aside div.about div.sns ul li {
   list-style: none;
@@ -457,13 +469,17 @@ body main aside div.recommend div.aside-inner-wrap p:nth-child(1) {
   margin-bottom: 15px;
 }
 body main aside div.recommend div.post {
+  display: flex;
   width: 100%;
   margin-top: 20px;
+}
+body main aside div.recommend div.post:hover {
+  color: #e22255;
+  transition-duration: 0.3s;
 }
 body main aside div.recommend div.post img {
   width: 35%;
   height: auto;
-  float: left;
   padding-right: 12px;
 }
 body main aside div.recommend div.post p {
@@ -655,6 +671,29 @@ body footer p.copyright {
   text-align: center;
   padding: 20px 0;
   letter-spacing: 0.1em;
+}
+
+/* =====================================
+  レスポンシブ
+======================================*/
+@media screen and (max-width: 768px) {
+  body main {
+    display: block;
+  }
+  body main aside {
+    width: 100%;
+  }
+  body main aside div.recommend {
+    margin-bottom: 40px;
+  }
+  body footer div.footer-inner-wrap {
+    display: block;
+  }
+  body footer div.footer-inner-wrap div.footer-left,
+  body footer div.footer-inner-wrap div.footer-center,
+  body footer div.footer-inner-wrap div.footer-right {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
