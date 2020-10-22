@@ -47,6 +47,9 @@ body header div.name h1 {
   font-weight: normal;
   letter-spacing: 0.1em;
 }
+body header div.name h1 a:visited {
+  color: inherit;
+}
 body header div.name h1 span {
   color: #9acc1e;
 }
@@ -87,10 +90,14 @@ body header nav ul li a:hover::after {
   opacity: 1;
   visibility: visible;
 }
+body header nav ul li a:visited {
+  color: inherit;
+}
 body main {
   display: flex;
   padding: 0 7.8%;
   width: 100%;
+  margin-bottom: 30px;
 }
 body main div.article {
   text-align: center;
@@ -110,6 +117,9 @@ body main div.article div.card {
   display: flex;
   flex-direction: column;
   transition-duration: .3s;
+}
+body main div.article div.card a:visited {
+  color: inherit;
 }
 body main div.article div.card:hover {
   transform: translate(0, -3px);
@@ -178,10 +188,15 @@ body main div.article div.page ul li.next:hover {
   transform: translate(0, -4px);
   color: white;
   background-color: rgba(128, 128, 128, 0.5);
-  cursor: pointer;
 }
 body main div.article div.page ul li.next {
   margin-right: 20px;
+}
+body main div.article div.page ul li a {
+  display: block;
+}
+body main div.article div.page ul li a:visited {
+  color: inherit;
 }
 body main aside {
   width: 35%;
@@ -224,15 +239,19 @@ body main aside div.theme div div:hover {
   opacity: 0.5;
   transition-duration: .4s;
 }
-body main aside div.theme div div p.download {
+body main aside div.theme div div a:visited {
+  color: inherit;
+}
+body main aside div.theme div div a p.download {
   background-color: #e22255;
   border-radius: 30px;
   padding: 8px 0;
   color: white;
   font-size: 13px;
   text-align: center;
+  position: relative;
 }
-body main aside div.theme div div p.download:before {
+body main aside div.theme div div a p.download:before {
   background-image: url(../img/arrow.png);
   background-size: contain;
   content: '';
@@ -295,6 +314,9 @@ body main aside div.about div.about-sentence div {
   margin: 0 auto;
   transition-duration: .4s;
 }
+body main aside div.about div.about-sentence div a:visited {
+  color: inherit;
+}
 body main aside div.about div.about-sentence div:hover {
   opacity: 0.5;
   transition-duration: .4s;
@@ -331,10 +353,23 @@ body main aside div.about div.sns ul li {
   width: 30px;
   height: 30px;
   transition-duration: .3s;
+  margin-right: 10px;
+}
+body main aside div.about div.sns ul li:last-child {
+  margin-right: 0;
 }
 body main aside div.about div.sns ul li:hover {
   transform: scale(1.1, 1.1);
   transition-duration: .3s;
+}
+body main aside div.about div.sns ul li a {
+  display: block;
+}
+body main aside div.about div.sns ul li a:visited {
+  color: inherit;
+}
+body main aside div.about div.sns ul li i {
+  padding-top: 5px;
 }
 body main aside div.recent-post {
   border: 1px solid rgba(128, 128, 128, 0.2);
@@ -359,7 +394,7 @@ body main aside div.recent-post div.post:hover {
   transition-duration: 0.3s;
 }
 body main aside div.recent-post div.post img {
-  width: 35%;
+  width: 100%;
 }
 body main aside div.recent-post div.post p {
   font-size: 14px;
@@ -478,7 +513,7 @@ body main aside div.recommend div.post:hover {
   transition-duration: 0.3s;
 }
 body main aside div.recommend div.post img {
-  width: 35%;
+  width: 100%;
   height: auto;
   padding-right: 12px;
 }
@@ -518,7 +553,10 @@ body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap p.t
   font-size: 13px;
   line-height: 1.8;
 }
-body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap p.download {
+body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap a:visited {
+  color: inherit;
+}
+body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap a p.download {
   background-color: #e22255;
   border-radius: 30px;
   padding: 8px 0;
@@ -528,8 +566,9 @@ body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap p.d
   padding: 10px 5px;
   margin: 0 auto;
   font-size: 14px;
+  display: block;
 }
-body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap p.download:before {
+body footer div.footer-inner-wrap div.footer-left div.footer-left-inner-wrap a p.download:before {
   background-image: url(../img/arrow.png);
   background-size: contain;
   content: '';

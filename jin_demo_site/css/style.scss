@@ -75,6 +75,9 @@ body {
       h1 {
         font-weight: normal;
         letter-spacing: 0.1em;
+        a:visited {
+          color: inherit;
+        } //a:visited
         span {
           color: $green;
         } //h1 span
@@ -115,6 +118,9 @@ body {
               opacity: 1;
               visibility: visible;
             } //&:hover::after
+            &:visited {
+              color: inherit;
+            } //&:visited
           } //a
         } //li
       } //ul
@@ -125,6 +131,7 @@ body {
     display: flex;
     padding: 0 7.8%;
     width: 100%;
+    margin-bottom: 30px;
     div.article {
       text-align: center;
       // width: 75%;
@@ -143,7 +150,9 @@ body {
         display: flex;
         flex-direction: column;
         transition-duration: .3s;
-
+        a:visited {
+          color: inherit;
+        }
         &:hover {
           transform: translate(0, -3px);
           box-shadow: 1px 1px 15px 1px rgba(128, 128, 128, 0.2);
@@ -208,12 +217,17 @@ body {
                 transform: translate(0, -4px);
                 color: white;
                 background-color: rgba(128, 128, 128, 0.5);
-                cursor: pointer;
               } //&:hover
             } //&.next
             &.next {
               margin-right: 20px;
-            }
+            } //&.next
+            a {
+              display: block;
+              &:visited {
+                color: inherit;
+              } //a:visited
+            } //a
           } //li
         } //ul
       } //div.page
@@ -255,22 +269,28 @@ body {
               opacity: 0.5;
               transition-duration: .4s;
             } //&:hover
-            p.download {
-              @include download_detail(#e22255);
-              font-size: 13px;
-              text-align: center;
-              &:before {
-                background-image: url(../img/arrow.png);
-                background-size: contain;
-                content: '';/*何も入れない*/
-                display: inline-block;/*忘れずに！*/
-                height: 14px;/*画像の高さ*/
-                margin-right: 0.3em;
-                vertical-align: middle;
-                width: 14px;/*画像の幅*/
-                padding-bottom: 16px;
-              } //&:before
-            } //p.download_detail
+            a {
+              &:visited {
+                color: inherit;
+              } //&:visited
+              p.download {
+                @include download_detail(#e22255);
+                font-size: 13px;
+                text-align: center;
+                position: relative;
+                &:before {
+                  background-image: url(../img/arrow.png);
+                  background-size: contain;
+                  content: '';/*何も入れない*/
+                  display: inline-block;/*忘れずに！*/
+                  height: 14px;/*画像の高さ*/
+                  margin-right: 0.3em;
+                  vertical-align: middle;
+                  width: 14px;/*画像の幅*/
+                  padding-bottom: 16px;
+                } //&:before
+              } //p.download
+            } //a
           } //div
         } //div
       } //div.theme
@@ -319,6 +339,11 @@ body {
             text-align: center;
             margin: 0 auto;
             transition-duration: .4s;
+            a {
+              &:visited {
+                color: inherit;
+              } //&:visited
+            } //a
             &:hover {
               opacity: 0.5;
               transition-duration: .4s;
@@ -353,10 +378,23 @@ body {
               width: 30px;
               height: 30px;
               transition-duration: .3s;
+              margin-right: 10px;
+              &:last-child {
+                margin-right: 0;
+              } //&:last-child
               &:hover {
                 transform: scale(1.1, 1.1);
                 transition-duration: .3s;
               } //&:hover
+              a {
+                display: block;
+                &:visited {
+                  color: inherit;
+                }//&:visited
+              } //a
+              i {
+                padding-top: 5px;
+              } //i
             } //li
           } //ul
         } //div.sns
@@ -374,7 +412,7 @@ body {
             transition-duration: .3s
           }
           img {
-            width: 35%;
+            width: 100%;
           } //img
           p {
             font-size: 14px;
@@ -461,7 +499,7 @@ body {
             transition-duration: .3s
           } //&:hover
           img {
-            width: 35%;
+            width: 100%;
             height: auto;
             padding-right: 12px;
           } //img
@@ -501,24 +539,30 @@ body {
             font-size: 13px;
             line-height: 1.8;
           } //p.text
-          p.download {
-            @include download_detail(#e22255);
-            text-align: center;
-            width: 90%;
-            padding: 10px 5px;
-            margin: 0 auto;
-            font-size: 14px;
-            &:before {
-              background-image: url(../img/arrow.png);
-              background-size: contain;
-              content: '';/*何も入れない*/
-              display: inline-block;/*忘れずに！*/
-              height: 14px;/*画像の高さ*/
-              margin-right: 0.3em;
-              vertical-align: middle;
-              width: 14px;/*画像の幅*/
-            } //&:before
-          } //p.download
+          a {
+            &:visited {
+              color: inherit;
+            } //&:visited
+            p.download {
+              @include download_detail(#e22255);
+              text-align: center;
+              width: 90%;
+              padding: 10px 5px;
+              margin: 0 auto;
+              font-size: 14px;
+              display: block;
+              &:before {
+                background-image: url(../img/arrow.png);
+                background-size: contain;
+                content: '';/*何も入れない*/
+                display: inline-block;/*忘れずに！*/
+                height: 14px;/*画像の高さ*/
+                margin-right: 0.3em;
+                vertical-align: middle;
+                width: 14px;/*画像の幅*/
+              } //&:before
+            } //p.download
+          } //a
           div {
             width: 100%;
             margin-top: 80px;
