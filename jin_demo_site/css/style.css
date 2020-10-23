@@ -118,10 +118,14 @@ body main div.article div.card {
   flex-direction: column;
   transition-duration: .3s;
 }
+body main div.article div.card a {
+  position: relative;
+  padding-bottom: 30px;
+}
 body main div.article div.card a:visited {
   color: inherit;
 }
-body main div.article div.card:hover {
+body main div.article div.card a:hover {
   transform: translate(0, -3px);
   box-shadow: 1px 1px 15px 1px rgba(128, 128, 128, 0.2);
 }
@@ -135,11 +139,9 @@ body main div.article div.card p.article-title {
   letter-spacing: 1px;
 }
 body main div.article div.card p.date {
-  margin: auto 20px 10px 0;
-  margin-bottom: 10px;
-  text-align: right;
-  font-size: 12px;
-  color: gray;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 body main div.article div.card p.icon {
   color: white;
@@ -394,7 +396,7 @@ body main aside div.recent-post div.post:hover {
   transition-duration: 0.3s;
 }
 body main aside div.recent-post div.post img {
-  width: 100%;
+  max-width: 130px;
 }
 body main aside div.recent-post div.post p {
   font-size: 14px;
@@ -686,9 +688,10 @@ body footer div.footer-inner-wrap div.footer-right div.footer-right-inner-wrap d
   display: flex;
   margin-bottom: 20px;
   position: relative;
+  width: 100%;
 }
 body footer div.footer-inner-wrap div.footer-right div.footer-right-inner-wrap div.post img {
-  width: 33%;
+  max-width: 130px;
 }
 body footer div.footer-inner-wrap div.footer-right div.footer-right-inner-wrap div.post p {
   text-align: left;
@@ -719,8 +722,18 @@ body footer p.copyright {
   レスポンシブ
 ======================================*/
 @media screen and (max-width: 768px) {
+  body header nav {
+    display: none;
+  }
   body main {
     display: block;
+    padding: 0 3%;
+  }
+  body main div.article p.article-title {
+    font-size: 12px !important;
+  }
+  body main div.article div.even {
+    margin-right: 0 !important;
   }
   body main aside {
     width: 100%;
@@ -747,6 +760,12 @@ body footer p.copyright {
   }
   body footer div.footer-inner-wrap div.footer-left-inner-wrap img {
     width: 20% !important;
+  }
+  body footer div.footer-inner-wrap div.footer-left-inner-wrap li {
+    background-color: rgba(0, 0, 0, 0.04) !important;
+  }
+  body footer div.footer-inner-wrap div.footer-left-inner-wrap li:hover {
+    background-color: #0d0015 !important;
   }
   body footer div.footer-inner-wrap p.item-title {
     border-left: none !important;
