@@ -735,6 +735,11 @@ body footer p.copyright {
   body main div.article p.article-title {
     font-size: 12px !important;
   }
+  body main div.article p.icon {
+    padding: 3px 7px !important;
+    top: 6px !important;
+    left: 6px !important;
+  }
   body main div.article div.even {
     margin-right: 0 !important;
   }
