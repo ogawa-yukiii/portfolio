@@ -489,12 +489,12 @@ body main aside div.search form.search_container input {
   padding: 3px 0;
   text-indent: 20px;
   border-radius: 30px;
-  transition-duration: .3s;
+  transition-duration: .5s;
 }
 body main aside div.search form.search_container input:focus {
   border: 1px solid #0d98ba;
   border-radius: 30px;
-  transition-duration: .3s;
+  transition-duration: .5s;
   outline: none;
 }
 body main aside div.recommend {
@@ -719,6 +719,28 @@ body footer p.copyright {
   text-align: center;
   padding: 20px 0;
   letter-spacing: 0.1em;
+}
+body div.pagetop {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  display: none;
+}
+body div.pagetop a {
+  width: 45px;
+  height: 45px;
+  display: block;
+  background-color: #393542;
+  border-radius: 50%;
+  line-height: 45px;
+  text-align: center;
+}
+body div.pagetop a i {
+  font-size: 25px;
+  color: white;
+  line-height: 45px;
 }
 
 /* =====================================
