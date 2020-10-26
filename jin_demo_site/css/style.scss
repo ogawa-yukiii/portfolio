@@ -164,9 +164,6 @@ body {
           letter-spacing: 1px;
         } //p.article-title
         p.date {
-          // margin: auto 20px 10px 0;
-          // margin-bottom: 10px;
-          // text-align: right;
           font-size: 12px;
           color: gray;
           position: absolute;
@@ -480,14 +477,7 @@ body {
       div.search {
         @include aside;
         form.search_container {
-          // border: 1px solid rgba(128, 128, 128, 0.2);
-          // border-radius: 30px;
-          // background-image: url(../img/search.png);
-          // background-size: 5%;
-          // background-position: center right 10px;
-          // font-size: 16px;
           input {
-            // padding: 3px 0;
             text-indent: 20px;
             border: 1px solid rgba(128, 128, 128, 0.2);
             border-radius: 30px;
@@ -495,17 +485,11 @@ body {
             background-size: 5%;
             background-position: center right 10px;
             height: 35px;
-            // border-radius: 30px;
             transition-duration: .5s;
-            // font-size: 16px;
             &:focus {
               border: 1px solid #0d98ba;
-            //   border-radius: 30px;
               transition-duration: .5s;
               outline: none;
-               // outline-offset: 0;
-               // font-size: 16px;
-               // font-size: initial;
             } //&:focus
           } //input
         } //form.search_container
