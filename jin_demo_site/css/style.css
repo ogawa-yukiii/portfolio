@@ -478,22 +478,18 @@ body main aside div.search div.aside-inner-wrap p:nth-child(1) {
   border-bottom: 2px solid black;
   margin-bottom: 15px;
 }
-body main aside div.search form.search_container {
+body main aside div.search form.search_container input {
+  text-indent: 20px;
   border: 1px solid rgba(128, 128, 128, 0.2);
   border-radius: 30px;
   background-image: url(../img/search.png);
   background-size: 5%;
   background-position: center right 10px;
-}
-body main aside div.search form.search_container input {
-  padding: 3px 0;
-  text-indent: 20px;
-  border-radius: 30px;
+  height: 35px;
   transition-duration: .5s;
 }
 body main aside div.search form.search_container input:focus {
   border: 1px solid #0d98ba;
-  border-radius: 30px;
   transition-duration: .5s;
   outline: none;
 }
@@ -771,8 +767,9 @@ body div.pagetop a i {
   body main aside div.recommend {
     margin-bottom: 40px;
   }
-  body main aside div.search form.search_container {
-    background-size: 4%;
+  body main aside div.search form.search_container input {
+    background-size: 3% !important;
+    width: 100% !important;
   }
   body footer div.footer-inner-wrap {
     display: block;
