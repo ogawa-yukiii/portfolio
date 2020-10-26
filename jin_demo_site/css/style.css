@@ -398,8 +398,11 @@ body main aside div.recent-post div.post:hover {
   color: #e22255;
   transition-duration: 0.3s;
 }
-body main aside div.recent-post div.post img {
-  max-width: 130px;
+body main aside div.recent-post div.post div {
+  max-width: 40%;
+}
+body main aside div.recent-post div.post div img {
+  width: 100%;
 }
 body main aside div.recent-post div.post p {
   font-size: 14px;
@@ -689,8 +692,11 @@ body footer div.footer-inner-wrap div.footer-right div.footer-right-inner-wrap d
   position: relative;
   width: 100%;
 }
-body footer div.footer-inner-wrap div.footer-right div.footer-right-inner-wrap div.post img {
-  max-width: 130px;
+body footer div.footer-inner-wrap div.footer-right div.footer-right-inner-wrap div.post div {
+  max-width: 35%;
+}
+body footer div.footer-inner-wrap div.footer-right div.footer-right-inner-wrap div.post div img {
+  width: 100%;
 }
 body footer div.footer-inner-wrap div.footer-right div.footer-right-inner-wrap div.post p {
   text-align: left;
@@ -768,7 +774,6 @@ body div.pagetop a i {
     margin-bottom: 40px;
   }
   body main aside div.search form.search_container input {
-    background-size: 3% !important;
     width: 100% !important;
   }
   body footer div.footer-inner-wrap {

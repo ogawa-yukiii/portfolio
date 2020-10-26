@@ -418,9 +418,13 @@ body {
             color: #e22255;
             transition-duration: .3s
           } //&:hover
-          img {
-            max-width: 130px;
-          } //img
+          div {
+            max-width: 40%;
+            img {
+              // max-width: 130px;
+              width: 100%;
+            } //img
+          } //div
           p {
             font-size: 14px;
             margin-left: 12px;
@@ -673,9 +677,12 @@ body {
             margin-bottom: 20px;
             position: relative;
             width: 100%;
-            img {
-              max-width: 130px;
-            } //img
+            div {
+              max-width: 35%;
+              img {
+                width: 100%;
+              } //img
+            } //div
             p {
               text-align: left;
               padding-left: 20px;
@@ -764,7 +771,6 @@ body {
         div.search {
           form.search_container {
             input {
-              background-size: 3% !important;
               width: 100% !important;
             } //input
           } //form.search_container
