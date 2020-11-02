@@ -410,6 +410,7 @@ body {
 ==============================*/
 @media (max-width: 900px) {
   body {
+    // overflow: hidden;
     header {
       background-color: #F6F6F6;
       div.header-wrap {
@@ -476,36 +477,6 @@ body {
           } //div.logo
           nav {
             display: none;
-            // ul {
-            //   display: flex;
-            //   li {
-            //     margin-left: 40px;
-            //     color: white;
-            //   } //li
-            //   a {
-            //     position: relative;
-            //     &:after {
-            //       position: absolute;
-            //       bottom: -6px;
-            //       left: 0;
-            //       content: "";
-            //       width: 100%;
-            //       height: 2px;
-            //       background: white;
-            //       opacity: 0;
-            //       visibility: hidden;
-            //       transition-duration: .3s;
-            //     } //&:after
-            //     &:hover::after {
-            //       opacity: 1;
-            //       visibility: visible;
-            //     } //&:hover::after
-            //     &:visited {
-            //       color: inherit;
-            //     } //&:visited
-            //   } //a
-            // } //ul
-          } //nav
         } //div.header-top
         div.sp-menu {
           display: block;
@@ -516,7 +487,7 @@ body {
           font-size: 14px;
           div.dropdown {
             li {
-              padding: 15px 0 15px 80px;
+              padding: 15px 0 15px 20%;
               border-top: 1px solid white;
               color: white;
               background-color: rgba(0, 0, 0, 0.5);
@@ -534,7 +505,7 @@ body {
           height: 50px;
           color: gray;
           div.btn-more {
-            padding-left: 80px;
+            padding-left: 20%;
             line-height: 50px;
           }
         }
