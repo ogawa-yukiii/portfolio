@@ -518,7 +518,7 @@ body footer div.copyright p {
   body header div.header-wrap div.header-top nav {
     display: none;
   }
-  body header div.header-wrap div.header-top div.sp-menu {
+  body header div.header-wrap div.sp-menu {
     display: block;
     width: 100%;
     position: absolute;
@@ -526,16 +526,16 @@ body footer div.copyright p {
     left: 0;
     font-size: 14px;
   }
-  body header div.header-wrap div.header-top div.sp-menu div.dropdown li {
+  body header div.header-wrap div.sp-menu div.dropdown li {
     padding: 15px 0 15px 20%;
     border-top: 1px solid white;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
   }
-  body header div.header-wrap div.header-top div.sp-menu div.dropdown li a {
+  body header div.header-wrap div.sp-menu div.dropdown li a {
     display: block;
   }
-  body header div.header-wrap div.header-top div.triger {
+  body header div.header-wrap div.triger {
     background-color: white;
     background-image: url(../img/navigation-toggle@2x.png);
     background-position: 95% 50%;
@@ -543,48 +543,48 @@ body footer div.copyright p {
     height: 50px;
     color: gray;
   }
-  body header div.header-wrap div.header-top div.triger div.btn-more {
+  body header div.header-wrap div.triger div.btn-more {
     padding-left: 20%;
     line-height: 50px;
   }
-  body header main div.concept {
+  body main div.concept {
     background-color: #f6f6f6;
     text-align: left;
     padding: 120px 0;
     width: 100%;
   }
-  body header main div.concept p {
+  body main div.concept p {
     width: 35%;
     margin: 0 auto;
     text-align: left;
     letter-spacing: 0.2em;
   }
-  body header main div.concept p:nth-child(1) {
+  body main div.concept p:nth-child(1) {
     text-align: center;
     font-size: 40px;
     font-weight: 100;
     margin-bottom: 60px;
   }
-  body header main div.concept p:not(:first-child) {
+  body main div.concept p:not(:first-child) {
     margin-top: 30px;
     font-size: 18px;
     line-height: 1.7;
   }
-  body header main div.concept p.pas-pol {
+  body main div.concept p.pas-pol {
     font-size: 30px;
     text-align: center;
   }
-  body header main div.concept p.pas-pol ruby rt {
+  body main div.concept p.pas-pol ruby rt {
     font-size: 12px;
   }
-  body header main div#product div.product-wrap {
+  body main div#product div.product-wrap {
     padding: 100px 0;
   }
-  body header main div#product div.product-wrap div.title-button {
+  body main div#product div.product-wrap div.title-button {
     display: flex;
     justify-content: space-around;
   }
-  body header main div#product div.product-wrap div.title-button h2 {
+  body main div#product div.product-wrap div.title-button h2 {
     background-image: url(../img/sectionTitle-underLine@2x.png);
     background-repeat: no-repeat;
     background-position: bottom left;
@@ -593,14 +593,14 @@ body footer div.copyright p {
     letter-spacing: 0.2em;
     font-weight: normal;
   }
-  body header main div#product div.product-wrap div.title-button p.more {
+  body main div#product div.product-wrap div.title-button p.more {
     border: 1px solid black;
     padding: 10px 60px;
     transition-duration: .3s;
     position: relative;
     letter-spacing: 0.1em;
   }
-  body header main div#product div.product-wrap div.title-button p.more:after {
+  body main div#product div.product-wrap div.title-button p.more:after {
     content: "";
     display: block;
     width: 8px;
@@ -613,57 +613,57 @@ body footer div.copyright p {
     right: 15px;
     margin-top: -5.1px;
   }
-  body header main div#product div.product-wrap div.title-button p.more:hover {
+  body main div#product div.product-wrap div.title-button p.more:hover {
     color: white;
     background-color: black;
     transition-duration: .3s;
     background-image: none;
   }
-  body header main div#product div.product-wrap div.title-button p.more:hover:after {
+  body main div#product div.product-wrap div.title-button p.more:hover:after {
     border-top: 1px solid white;
     border-right: 1px solid white;
   }
-  body header main div#product div.product-wrap div.product-item-wrap {
+  body main div#product div.product-wrap div.product-item-wrap {
     width: 80%;
     margin: 0 auto;
     display: block;
   }
-  body header main div#product div.product-wrap div.product-item-wrap div.product-item {
+  body main div#product div.product-wrap div.product-item-wrap div.product-item {
     width: 100%;
     margin-top: 50px;
     position: relative;
     transition-duration: .3s;
     display: flex;
   }
-  body header main div#product div.product-wrap div.product-item-wrap div.product-item:hover {
+  body main div#product div.product-wrap div.product-item-wrap div.product-item:hover {
     opacity: 0.7;
     transition-duration: .3s;
   }
-  body header main div#product div.product-wrap div.product-item-wrap div.product-item img {
+  body main div#product div.product-wrap div.product-item-wrap div.product-item img {
     width: 35%;
   }
-  body header main div#product div.product-wrap div.product-item-wrap div.product-item p {
+  body main div#product div.product-wrap div.product-item-wrap div.product-item p {
     font-size: 19px;
     font-weight: bold;
     letter-spacing: 0.1em;
     margin-left: 30px;
   }
-  body header main div#product div.product-wrap div.product-item-wrap div.product-item a {
+  body main div#product div.product-wrap div.product-item-wrap div.product-item a {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
   }
-  body header main div#news {
+  body main div#news {
     background-color: #f6f6f6;
     padding: 100px 0;
   }
-  body header main div#news div.title-button {
+  body main div#news div.title-button {
     display: flex;
     justify-content: space-around;
   }
-  body header main div#news div.title-button h2 {
+  body main div#news div.title-button h2 {
     background-image: url(../img/sectionTitle-underLine@2x.png);
     background-repeat: no-repeat;
     background-position: bottom left;
@@ -672,14 +672,14 @@ body footer div.copyright p {
     letter-spacing: 0.2em;
     font-weight: normal;
   }
-  body header main div#news div.title-button p.more {
+  body main div#news div.title-button p.more {
     border: 1px solid black;
     padding: 10px 60px;
     transition-duration: .3s;
     position: relative;
     letter-spacing: 0.1em;
   }
-  body header main div#news div.title-button p.more:after {
+  body main div#news div.title-button p.more:after {
     content: "";
     display: block;
     width: 8px;
@@ -692,68 +692,68 @@ body footer div.copyright p {
     right: 15px;
     margin-top: -5.1px;
   }
-  body header main div#news div.title-button p.more:hover {
+  body main div#news div.title-button p.more:hover {
     color: white;
     background-color: black;
     transition-duration: .3s;
     background-image: none;
   }
-  body header main div#news div.title-button p.more:hover:after {
+  body main div#news div.title-button p.more:hover:after {
     border-top: 1px solid white;
     border-right: 1px solid white;
   }
-  body header main div#news div.news-item-wrap {
+  body main div#news div.news-item-wrap {
     width: 60%;
     margin: 0 auto;
   }
-  body header main div#news div.news-item-wrap div.news-item {
+  body main div#news div.news-item-wrap div.news-item {
     width: 100%;
     display: flex;
     margin-top: 70px;
     position: relative;
     transition-duration: .3s;
   }
-  body header main div#news div.news-item-wrap div.news-item:hover {
+  body main div#news div.news-item-wrap div.news-item:hover {
     opacity: 0.7;
     transition-duration: .3s;
   }
-  body header main div#news div.news-item-wrap div.news-item div.pic {
+  body main div#news div.news-item-wrap div.news-item div.pic {
     width: 40%;
   }
-  body header main div#news div.news-item-wrap div.news-item div.pic img {
+  body main div#news div.news-item-wrap div.news-item div.pic img {
     width: 100%;
   }
-  body header main div#news div.news-item-wrap div.news-item div.sentence {
+  body main div#news div.news-item-wrap div.news-item div.sentence {
     width: 60%;
     margin-left: 35px;
     line-height: 1.7;
   }
-  body header main div#news div.news-item-wrap div.news-item div.sentence p:nth-child(1) {
+  body main div#news div.news-item-wrap div.news-item div.sentence p:nth-child(1) {
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 0.1em;
     margin-bottom: 5px;
   }
-  body header main div#news div.news-item-wrap div.news-item div.sentence p:nth-child(2) {
+  body main div#news div.news-item-wrap div.news-item div.sentence p:nth-child(2) {
     font-size: 12px;
     margin-bottom: 15px;
     color: gray;
   }
-  body header main div#news div.news-item-wrap div.news-item div.sentence p:nth-child(3) {
+  body main div#news div.news-item-wrap div.news-item div.sentence p:nth-child(3) {
     font-size: 13px;
     color: gray;
   }
-  body header main div#news div.news-item-wrap div.news-item a {
+  body main div#news div.news-item-wrap div.news-item a {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
   }
-  body header footer {
+  body footer {
     position: relative;
   }
-  body header footer div#to-top {
+  body footer div#to-top {
     content: "";
     width: 50px;
     height: 50px;
@@ -765,7 +765,7 @@ body footer div.copyright p {
     top: -30px;
     transition-duration: .3s;
   }
-  body header footer div#to-top:after {
+  body footer div#to-top:after {
     content: "";
     display: block;
     width: 12px;
@@ -777,87 +777,87 @@ body footer div.copyright p {
     top: 30%;
     right: 18.5px;
   }
-  body header footer div#to-top:hover {
+  body footer div#to-top:hover {
     transform: translate(0, -5px);
     transition-duration: .3s;
   }
-  body header footer div#to-top a {
+  body footer div#to-top a {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
   }
-  body header footer div.share {
+  body footer div.share {
     display: flex;
     justify-content: center;
     padding: 40px 0;
   }
-  body header footer div.share a.share-button:nth-child(1) {
+  body footer div.share a.share-button:nth-child(1) {
     border: 1px solid #4871a9;
     color: #4871a9;
     padding: 10px;
     font-size: 14px;
     transition-duration: .3s;
   }
-  body header footer div.share a.share-button:nth-child(1):hover {
+  body footer div.share a.share-button:nth-child(1):hover {
     background-color: #4871a9;
     color: white;
     transition-duration: .3s;
   }
-  body header footer div.share a.share-button:nth-child(2) {
+  body footer div.share a.share-button:nth-child(2) {
     border: 1px solid #70bdd3;
     color: #70bdd3;
     padding: 10px;
     font-size: 14px;
     transition-duration: .3s;
   }
-  body header footer div.share a.share-button:nth-child(2):hover {
+  body footer div.share a.share-button:nth-child(2):hover {
     background-color: #70bdd3;
     color: white;
     transition-duration: .3s;
   }
-  body header footer div.share a.share-button:nth-child(3) {
+  body footer div.share a.share-button:nth-child(3) {
     border: 1px solid #2f9bcd;
     color: #2f9bcd;
     padding: 10px;
     font-size: 14px;
     transition-duration: .3s;
   }
-  body header footer div.share a.share-button:nth-child(3):hover {
+  body footer div.share a.share-button:nth-child(3):hover {
     background-color: #2f9bcd;
     color: white;
     transition-duration: .3s;
   }
-  body header footer div.share a {
+  body footer div.share a {
     margin-right: 20px;
   }
-  body header footer div.share a:nth-child(3) {
+  body footer div.share a:nth-child(3) {
     margin-right: 0;
   }
-  body header footer div.footer-nav {
+  body footer div.footer-nav {
     background-color: #939899;
     padding: 30px 0;
   }
-  body header footer div.footer-nav ul {
+  body footer div.footer-nav ul {
     display: flex;
     justify-content: center;
     color: white;
   }
-  body header footer div.footer-nav ul li {
+  body footer div.footer-nav ul li {
     margin-left: 30px;
   }
-  body header footer div.footer-nav ul li:first-child {
+  body footer div.footer-nav ul li:first-child {
     margin-left: 0;
   }
-  body header footer div.footer-nav ul li a {
+  body footer div.footer-nav ul li a {
     transition-duration: .3s;
   }
-  body header footer div.footer-nav ul li a:hover {
+  body footer div.footer-nav ul li a:hover {
     opacity: 0.6;
     transition-duration: .3s;
   }
-  body header footer div.copyright {
+  body footer div.copyright {
     background-color: #656c6e;
     color: white;
     display: flex;
@@ -865,18 +865,18 @@ body footer div.copyright p {
     align-items: center;
     padding: 40px 0;
   }
-  body header footer div.copyright div {
+  body footer div.copyright div {
     width: 30%;
     transition-duration: .3s;
   }
-  body header footer div.copyright div:hover {
+  body footer div.copyright div:hover {
     opacity: 0.6;
     transition-duration: .3s;
   }
-  body header footer div.copyright div img {
+  body footer div.copyright div img {
     width: 20%;
   }
-  body header footer div.copyright p {
+  body footer div.copyright p {
     font-size: 10px;
   }
 }
