@@ -961,7 +961,7 @@ body footer div.copyright p {
     font-size: 14px;
   }
   body header div.header-wrap div.sp-menu div.dropdown li {
-    padding: 15px 0 15px 20%;
+    padding: 15px 0 15px 10%;
     border-top: 1px solid white;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
@@ -978,35 +978,33 @@ body footer div.copyright p {
     color: gray;
   }
   body header div.header-wrap div.triger div.btn-more {
-    padding-left: 20%;
+    padding-left: 10%;
     line-height: 50px;
   }
   body main div.concept {
     background-color: #f6f6f6;
     text-align: left;
-    padding: 120px 0;
+    padding: 100px 4%;
     width: 100%;
   }
   body main div.concept p {
-    width: 35%;
-    margin: 0 auto;
+    width: 100%;
     text-align: left;
     letter-spacing: 0.2em;
   }
   body main div.concept p:nth-child(1) {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 100;
+    text-align: left;
+    font-size: 30px;
     margin-bottom: 60px;
   }
   body main div.concept p:not(:first-child) {
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.7;
   }
   body main div.concept p.pas-pol {
-    font-size: 30px;
-    text-align: center;
+    font-size: 20px;
+    text-align: left;
   }
   body main div.concept p.pas-pol ruby rt {
     font-size: 12px;
