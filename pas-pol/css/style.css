@@ -20,6 +20,9 @@ li {
   list-style: none;
 }
 
+/* PC and 900px*/
+/* sp上のタイトル */
+/* sp 下のmoreボタン*/
 body header {
   background-color: #F6F6F6;
 }
@@ -222,7 +225,7 @@ body main div#product div.product-wrap div.product-item-wrap div.product-item a 
   width: 100%;
   height: 100%;
 }
-body main div#product div.product-wrap a p.more-sp {
+body main div#product div.product-wrap div.title-button-more-sp {
   display: none;
 }
 body main div#news {
@@ -320,7 +323,7 @@ body main div#news div.news-item-wrap div.news-item a {
   width: 100%;
   height: 100%;
 }
-body main div#news div.news-item-wrap a p.more-sp {
+body main div#news div.news-item-wrap div.title-button-more-sp {
   display: none;
 }
 body footer {
@@ -663,6 +666,9 @@ body footer div.copyright p {
     width: 100%;
     height: 100%;
   }
+  body main div#product div.product-wrap div.title-button-more-sp {
+    display: none;
+  }
   body main div#news {
     background-color: #f6f6f6;
     padding: 100px 0;
@@ -750,6 +756,9 @@ body footer div.copyright p {
   body main div#news div.news-item-wrap div.news-item div.sentence p:nth-child(3) {
     font-size: 13px;
     color: gray;
+  }
+  body main div#news div.news-item-wrap div.news-item div.title-button-more-sp {
+    display: none;
   }
   body main div#news div.news-item-wrap div.news-item a {
     position: absolute;
@@ -1022,6 +1031,7 @@ body footer div.copyright p {
   }
   body main div#product div.product-wrap div.title-button {
     display: block;
+    text-align: center;
   }
   body main div#product div.product-wrap div.title-button h2 {
     background-image: url(../img/sectionTitle-underLine@2x.png);
@@ -1031,7 +1041,6 @@ body footer div.copyright p {
     padding-bottom: 10px;
     letter-spacing: 0.2em;
     font-weight: normal;
-    text-align: center;
   }
   body main div#product div.product-wrap div.title-button p.more {
     display: none;
@@ -1068,18 +1077,37 @@ body footer div.copyright p {
     width: 100%;
     height: 100%;
   }
-  body main div#product div.product-wrap a p.more-sp {
+  body main div#product div.product-wrap div.title-button-sp {
     display: block;
+    text-align: center;
   }
-  body main div#product div.product-wrap a p.more-sp p.more-sp {
+  body main div#product div.product-wrap div.title-button-sp h2 {
+    background-image: url(../img/sectionTitle-underLine@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 60px;
+    padding-bottom: 10px;
+    letter-spacing: 0.2em;
+    font-weight: normal;
+  }
+  body main div#product div.product-wrap div.title-button-sp p.more {
+    display: none;
+  }
+  body main div#product div.product-wrap div.title-button-more-sp {
     display: block;
+    width: 160px;
+    margin: 0 auto;
+  }
+  body main div#product div.product-wrap div.title-button-more-sp p.more-sp {
+    margin-top: 100px;
     border: 1px solid black;
-    padding: 10px 60px;
+    padding: 10px 30px;
     transition-duration: .3s;
     position: relative;
     letter-spacing: 0.1em;
+    text-align: center;
   }
-  body main div#product div.product-wrap a p.more-sp p.more-sp:after {
+  body main div#product div.product-wrap div.title-button-more-sp p.more-sp:after {
     content: "";
     display: block;
     width: 8px;
@@ -1092,13 +1120,13 @@ body footer div.copyright p {
     right: 15px;
     margin-top: -5.1px;
   }
-  body main div#product div.product-wrap a p.more-sp p.more-sp:hover {
+  body main div#product div.product-wrap div.title-button-more-sp p.more-sp:hover {
     color: white;
     background-color: black;
     transition-duration: .3s;
     background-image: none;
   }
-  body main div#product div.product-wrap a p.more-sp p.more-sp:hover:after {
+  body main div#product div.product-wrap div.title-button-more-sp p.more-sp:hover:after {
     border-top: 1px solid white;
     border-right: 1px solid white;
   }
@@ -1107,47 +1135,20 @@ body footer div.copyright p {
     padding: 100px 0;
   }
   body main div#news div.title-button {
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    text-align: center;
   }
   body main div#news div.title-button h2 {
     background-image: url(../img/sectionTitle-underLine@2x.png);
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: bottom center;
     background-size: 60px;
     padding-bottom: 10px;
     letter-spacing: 0.2em;
     font-weight: normal;
   }
   body main div#news div.title-button p.more {
-    border: 1px solid black;
-    padding: 10px 60px;
-    transition-duration: .3s;
-    position: relative;
-    letter-spacing: 0.1em;
-  }
-  body main div#news div.title-button p.more:after {
-    content: "";
-    display: block;
-    width: 8px;
-    height: 8px;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    transform: rotate(45deg);
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    margin-top: -5.1px;
-  }
-  body main div#news div.title-button p.more:hover {
-    color: white;
-    background-color: black;
-    transition-duration: .3s;
-    background-image: none;
-  }
-  body main div#news div.title-button p.more:hover:after {
-    border-top: 1px solid white;
-    border-right: 1px solid white;
+    display: none;
   }
   body main div#news div.news-item-wrap {
     width: 60%;
@@ -1196,6 +1197,43 @@ body footer div.copyright p {
     left: 0;
     width: 100%;
     height: 100%;
+  }
+  body main div#news div.news-item-wrap div.title-button-more-sp {
+    display: block;
+    width: 160px;
+    margin: 0 auto;
+  }
+  body main div#news div.news-item-wrap div.title-button-more-sp p.more-sp {
+    margin-top: 100px;
+    border: 1px solid black;
+    padding: 10px 30px;
+    transition-duration: .3s;
+    position: relative;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+  body main div#news div.news-item-wrap div.title-button-more-sp p.more-sp:after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -5.1px;
+  }
+  body main div#news div.news-item-wrap div.title-button-more-sp p.more-sp:hover {
+    color: white;
+    background-color: black;
+    transition-duration: .3s;
+    background-image: none;
+  }
+  body main div#news div.news-item-wrap div.title-button-more-sp p.more-sp:hover:after {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
   }
   body footer {
     position: relative;
