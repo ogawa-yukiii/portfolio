@@ -222,6 +222,9 @@ body main div#product div.product-wrap div.product-item-wrap div.product-item a 
   width: 100%;
   height: 100%;
 }
+body main div#product div.product-wrap a p.more-sp {
+  display: none;
+}
 body main div#news {
   background-color: #f6f6f6;
   padding: 100px 0;
@@ -317,6 +320,9 @@ body main div#news div.news-item-wrap div.news-item a {
   width: 100%;
   height: 100%;
 }
+body main div#news div.news-item-wrap a p.more-sp {
+  display: none;
+}
 body footer {
   position: relative;
 }
@@ -395,6 +401,9 @@ body footer div.share a.share-button:nth-child(3):hover {
   background-color: #2f9bcd;
   color: white;
   transition-duration: .3s;
+}
+body footer div.share a.share-button:nth-child(4) {
+  display: none;
 }
 body footer div.share a {
   margin-right: 20px;
@@ -550,17 +559,16 @@ body footer div.copyright p {
   body main div.concept {
     background-color: #f6f6f6;
     text-align: left;
-    padding: 120px 0;
+    padding: 120px 6%;
     width: 100%;
   }
   body main div.concept p {
-    width: 35%;
-    margin: 0 auto;
+    width: 100%;
     text-align: left;
     letter-spacing: 0.2em;
   }
   body main div.concept p:nth-child(1) {
-    text-align: center;
+    text-align: left;
     font-size: 40px;
     font-weight: 100;
     margin-bottom: 60px;
@@ -572,7 +580,7 @@ body footer div.copyright p {
   }
   body main div.concept p.pas-pol {
     font-size: 30px;
-    text-align: center;
+    text-align: left;
   }
   body main div.concept p.pas-pol ruby rt {
     font-size: 12px;
@@ -1013,47 +1021,20 @@ body footer div.copyright p {
     padding: 100px 0;
   }
   body main div#product div.product-wrap div.title-button {
-    display: flex;
-    justify-content: space-around;
+    display: block;
   }
   body main div#product div.product-wrap div.title-button h2 {
     background-image: url(../img/sectionTitle-underLine@2x.png);
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: bottom center;
     background-size: 60px;
     padding-bottom: 10px;
     letter-spacing: 0.2em;
     font-weight: normal;
+    text-align: center;
   }
   body main div#product div.product-wrap div.title-button p.more {
-    border: 1px solid black;
-    padding: 10px 60px;
-    transition-duration: .3s;
-    position: relative;
-    letter-spacing: 0.1em;
-  }
-  body main div#product div.product-wrap div.title-button p.more:after {
-    content: "";
-    display: block;
-    width: 8px;
-    height: 8px;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    transform: rotate(45deg);
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    margin-top: -5.1px;
-  }
-  body main div#product div.product-wrap div.title-button p.more:hover {
-    color: white;
-    background-color: black;
-    transition-duration: .3s;
-    background-image: none;
-  }
-  body main div#product div.product-wrap div.title-button p.more:hover:after {
-    border-top: 1px solid white;
-    border-right: 1px solid white;
+    display: none;
   }
   body main div#product div.product-wrap div.product-item-wrap {
     width: 80%;
@@ -1086,6 +1067,40 @@ body footer div.copyright p {
     left: 0;
     width: 100%;
     height: 100%;
+  }
+  body main div#product div.product-wrap a p.more-sp {
+    display: block;
+  }
+  body main div#product div.product-wrap a p.more-sp p.more-sp {
+    display: block;
+    border: 1px solid black;
+    padding: 10px 60px;
+    transition-duration: .3s;
+    position: relative;
+    letter-spacing: 0.1em;
+  }
+  body main div#product div.product-wrap a p.more-sp p.more-sp:after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -5.1px;
+  }
+  body main div#product div.product-wrap a p.more-sp p.more-sp:hover {
+    color: white;
+    background-color: black;
+    transition-duration: .3s;
+    background-image: none;
+  }
+  body main div#product div.product-wrap a p.more-sp p.more-sp:hover:after {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
   }
   body main div#news {
     background-color: #f6f6f6;
