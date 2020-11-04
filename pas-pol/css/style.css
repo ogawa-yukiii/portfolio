@@ -337,8 +337,9 @@ body footer div#to-top {
   background-color: white;
   position: relative;
   position: absolute;
-  right: 50%;
   top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
   transition-duration: .3s;
 }
 body footer div#to-top:after {
@@ -778,8 +779,9 @@ body footer div.copyright p {
     background-color: white;
     position: relative;
     position: absolute;
-    right: 50%;
     top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
     transition-duration: .3s;
   }
   body footer div#to-top:after {

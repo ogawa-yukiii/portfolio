@@ -421,8 +421,9 @@ body {
       background-color: white;
       position: relative;
       position: absolute;
-      right: 50%;
       top: -30px;
+      left: 50%;
+      transform: translateX(-50%);
       transition-duration: .3s;
       &:after {
         content: "";
@@ -783,8 +784,9 @@ body {
         background-color: white;
         position: relative;
         position: absolute;
-        right: 50%;
         top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
         transition-duration: .3s;
         &:after {
           content: "";
