@@ -421,9 +421,10 @@ body {
       background-color: white;
       position: relative;
       position: absolute;
-      top: -30px;
+      top: 0;
       left: 50%;
-      transform: translateX(-50%);
+      margin-left: -25px;
+      margin-top: -25px;
       transition-duration: .3s;
       &:after {
         content: "";
@@ -784,9 +785,10 @@ body {
         background-color: white;
         position: relative;
         position: absolute;
-        top: -30px;
+        top: 0;
         left: 50%;
-        transform: translateX(-50%);
+        margin-left: -25px;
+        margin-top: -25px;
         transition-duration: .3s;
         &:after {
           content: "";
@@ -1152,9 +1154,10 @@ body {
         background-color: white;
         position: relative;
         position: absolute;
-        top: -30px;
+        top: 0;
         left: 50%;
-        transform: translateX(-50%);
+        margin-left: -25px;
+        margin-top: -25px;
         transition-duration: .3s;
         &:after {
           content: "";

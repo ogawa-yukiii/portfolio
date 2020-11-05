@@ -337,9 +337,10 @@ body footer div#to-top {
   background-color: white;
   position: relative;
   position: absolute;
-  top: -30px;
+  top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  margin-left: -25px;
+  margin-top: -25px;
   transition-duration: .3s;
 }
 body footer div#to-top:after {
@@ -779,9 +780,10 @@ body footer div.copyright p {
     background-color: white;
     position: relative;
     position: absolute;
-    top: -30px;
+    top: 0;
     left: 50%;
-    transform: translateX(-50%);
+    margin-left: -25px;
+    margin-top: -25px;
     transition-duration: .3s;
   }
   body footer div#to-top:after {
@@ -1247,9 +1249,10 @@ body footer div.copyright p {
     background-color: white;
     position: relative;
     position: absolute;
-    top: -30px;
+    top: 0;
     left: 50%;
-    transform: translateX(-50%);
+    margin-left: -25px;
+    margin-top: -25px;
     transition-duration: .3s;
   }
   body footer div#to-top:after {
