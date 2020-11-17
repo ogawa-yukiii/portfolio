@@ -258,6 +258,9 @@ main #about .about-item .self-introduction .sns {
   color: #c39244;
   margin-top: 10px;
 }
+main #about .about-item .self-introduction img {
+  vertical-align: top;
+}
 main #about .about-item .skills {
   /* 星5 */
   /* 星4.5 */
